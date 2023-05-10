@@ -53,6 +53,7 @@ obj-$(CONFIG_LATTICE_ECP3_CONFIG)	+= lattice-ecp3-config.o
 obj-$(CONFIG_SRAM)		+= sram.o
 obj-y				+= mic/
 obj-$(CONFIG_GENWQE)		+= genwqe/
+obj-$(CONFIG_KPROFILES)         += kprofiles/
 obj-$(CONFIG_QSEECOM) += qseecom.o
 obj-$(CONFIG_PROFILER) += profiler.o
 obj-$(CONFIG_HDCP_QSEECOM) += hdcp.o
